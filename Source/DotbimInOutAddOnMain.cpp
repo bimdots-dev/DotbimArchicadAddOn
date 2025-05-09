@@ -1,7 +1,5 @@
 #include <ACAPinc.h>
 
-#include "APIEnvir.h"
-
 #include "ResourceIds.hpp"
 
 #include "DotbimImporter.hpp"
