@@ -1,6 +1,6 @@
 # Archicad Dotbim Add-On
 
-[![Build](https://github.com/kovacsv/dotbim-archicad/actions/workflows/build.yml/badge.svg)](https://github.com/kovacsv/dotbim-archicad/actions/workflows/build.yml)
+[![Build](https://github.com/bimdots-dev/DotbimArchicadAddOn/actions/workflows/build.yml/badge.svg)](https://github.com/bimdots-dev/DotbimArchicadAddOn/actions/workflows/build.yml)
 
 Archicad Add-On to import and export [Dotbim (.bim)](https://dotbim.net) files.
 

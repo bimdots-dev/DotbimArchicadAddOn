@@ -1,7 +1,13 @@
 {
     "addOnName": "DotbimAddOn",
+    "description": "Dotbim Archicad Add-On.",
     "defaultLanguage": "INT",
     "languages": [
         "INT"
-    ]
+    ],
+    "version": "1.0.0",
+    "copyright": {
+        "name": "Bimdots",
+        "year": "2024-%Y"
+    }
 }
