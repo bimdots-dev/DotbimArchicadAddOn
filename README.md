@@ -56,20 +56,33 @@ Import command example:
 }
 ```
 
-## Add-On Development
+## Build instructions
 
-The build environment is set up for Windows development, but the code should compile on Mac as well.
+### Install prerequisites
 
-### Prerequisites
+#### Windows
 
-You should install some prerequisites to build the Add-On:
-- [Visual Studio](https://visualstudio.microsoft.com/downloads) (2022+)
-- [CMake](https://cmake.org) for generating the project file (3.19+)
-- [Python](https://www.python.org) for resource compilation (3.8+)
+- [Visual Studio](https://visualstudio.microsoft.com/downloads) (any version)
+  - Platform toolset v142.
+  - Platform toolset v143.
 
-### Generate the project and build
+#### macOS
 
-Run this command from the root of the repository:
+- [Xcode](https://developer.apple.com/xcode/)
+  - Version 14.2: `/Applications/Xcode_14.2.app`.
+  - Version 15.2: `/Applications/Xcode_15.2.app`.
+
+#### Common
+
+- [CMake](https://cmake.org) (3.16+)
+- [Python](https://www.python.org) (3.8+)
+- [7-Zip](https://www.7-zip.org) (22+)
+  - The executable must be in the PATH.
+
+### Build
+
+Run the build script.
+
 ```
 python Tools\BuildAddOn.py --configFile config.json --acVersion 26 27 28
 ```
